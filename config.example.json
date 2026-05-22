@@ -1,0 +1,33 @@
+﻿{
+    "channel_name":  "My Channel",
+    "timezone":  "Asia/Dubai",
+    "queue_dir":  "queue",
+    "uploaded_dir":  "uploaded",
+    "failed_dir":  "failed",
+    "receipts_dir":  "receipts",
+    "state_file":  "state/uploads.json",
+    "client_secrets_file":  "secrets/client_secrets.json",
+    "token_file":  "secrets/token.json",
+    "allowed_extensions":  [
+                               ".mp4",
+                               ".mov",
+                               ".m4v",
+                               ".avi",
+                               ".webm",
+                               ".mkv"
+                           ],
+    "title_template":  "{stem}",
+    "description_template":  "Follow for more shorts.\n\n#shorts",
+    "default_tags":  [
+                         "shorts"
+                     ],
+    "category_id":  "22",
+    "privacy_status":  "private",
+    "made_for_kids":  false,
+    "move_uploaded_files":  true,
+    "shorts_validation":  {
+                              "max_duration_seconds":  180,
+                              "require_vertical_or_square":  true,
+                              "warn_if_over_60_seconds":  true
+                          }
+}

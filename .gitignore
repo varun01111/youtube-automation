@@ -1,0 +1,11 @@
+secrets/
+client_secret_*.json
+config.local.json
+password youtube.txt
+queue/
+uploaded/
+failed/
+receipts/
+state/
+__pycache__/
+*.pyc
